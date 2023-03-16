@@ -1,0 +1,59 @@
+.wires_out {
+    width: 3469px;
+    overflow-x: scroll;
+}
+
+@media (max-width:350px) and (min-width:50px) {
+    .fsm40 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) and (min-width:350px) {
+    .fsm40 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:800px) and (min-width:600px) {
+    .fsm40 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:999px) {}
+
+
+/* Screen 150% */
+
+@media (max-width: 1024px) and (min-width: 999px) {}
+
+
+/* Screen 140% */
+
+@media (max-width: 1110px) and (min-width: 1030px) {}
+
+
+/* Screen 130% */
+
+@media (max-width: 1280px) and (min-width: 1110px) {}
+
+
+/* Screen 120% */
+
+@media (max-width: 1400px) and (min-width: 1280px) {}
+
+
+/* Screen 110% */
+
+@media (max-width: 1500px) and (min-width: 1400px) {}
+
+
+/* Screen 100% */
+
+@media (max-width: 1600px) and (min-width: 1500px) {}
+
+
+/* Screen 90% */
+
+@media (max-width: 1750px) and (min-width: 1600px) {}
