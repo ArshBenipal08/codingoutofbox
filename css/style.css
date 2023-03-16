@@ -319,6 +319,11 @@ input[id=cb1] {
         overflow-y: scroll;
         background-color: #fff
     }
+    .cart_up {
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
     .navbar-brand {
         margin-left: 10px;
     }
@@ -395,6 +400,11 @@ input[id=cb1] {
         overflow-y: scroll;
         background-color: #fff
     }
+    .cart_up {
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
     .navbar-brand {
         margin-left: 10px;
     }
@@ -470,6 +480,11 @@ input[id=cb1] {
     .dash_nav {
         overflow-y: scroll;
         background-color: #fff
+    }
+    .cart_up {
+        position: absolute;
+        top: 0;
+        right: 40px;
     }
     .navbar-brand {
         margin-left: 10px;
