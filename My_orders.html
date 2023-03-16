@@ -15,7 +15,6 @@
 
 <body>
     <div class="pagewraper   container-fluid px-0 overflow-hidden">
-
         <div class="container-fluid position-fixed w-100  bg_black" style="z-index: 999;">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent w-100">
@@ -88,70 +87,82 @@
                 </nav>
             </div>
         </div>
-        <section class=" px-lg-4  ">
+        <section class="container mt-5 pt-lg-5">
+            <div class="row justify-content-between position-relative  py-5">
 
-            <div class=" content container-fluid mt-5 pt-5">
-                <div class="row justify-content-between position-relative  py-5">
-                    
-                    <div class="col-lg-6 px-4">
-<h1 class="fs72 main_txt">
-    Hey , Rodrigo!
-</h1>
-<p class="fs16 text-white w-50">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-</p>
-<button class="btn text-white mb-3">
-My Orders
-</button>
-<br>
-<button class="btn1 text-white mb-3">
-   Edit My Address
-    </button>
-    <br>
-    <button class="btn text-white mb-3">
-        My Account Details
-        </button>
+                <div class="col-lg-6">
+                    <h1 class="fs72 main_txt fsm40">
+                        Hey , Rodrigo!
+                    </h1>
+                    <p class="fs16 fsm15 text-white col-lg-10 col-11">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat
+                    </p>
+                    <div class="dash_menu d-flex flex-lg-column gap-2 py-3">
+                        <button class="px-4  col-lg-3 col-5  py-2 btn text-white  fs16">
+                            My Orders
+                        </button>
+                        <br>
+                        <button class="px-4 col-lg-4 col-6 py-2 btn1 text-white  fs16">
+                            Edit My Address
+                        </button>
+                        <br>
+                        <button class="px-4 py-2 col-lg-6 col-8 btn text-white  fs16">
+                            My Account Details
+                        </button>
                     </div>
-                    <div class="row col-lg-6">
-                       
-                                            <div class="col-lg-3">
-                                                <h5 class="fs21 main_txt mb-3">
-                                                    Billing
-                                                </h5>
-                                             <form>
-                                                <input type="text" class="inp mb-3 w-100">
-                                                <input type="text" class="inp mb-3 w-100">
-                                                <input type="text" class="inp mb-3 w-100">
-                                                <input type="text" class="inp mb-3 w-100">
-                                                <input type="text" class="inp mb-3 w-100">
-                                                <button class="btn text-white w-50 text-lg-start">
-                                                   Edit
-                                                    </button>
-                                                
-                                             </form>
-                                                                    </div>
-                                                                    <div class="col-lg-3">
-                                                                        <h5 class="fs21 main_txt mb-3">
-                                                                            Shipping
-                                                                        </h5>
-                                                                     <form>
-                                                                        <input type="text" class="inp mb-3 w-100">
-                                                                        <input type="text" class="inp mb-3 w-100">
-                                                                        <input type="text" class="inp mb-3 w-100">
-                                                                        <input type="text" class="inp mb-3 w-100">
-                                                                        <input type="text" class="inp mb-3 w-100">
-                                                                        <button class="btn text-white w-50 text-lg-start">
-                                                                           Edit
-                                                                            </button>
-                                                                        
-                                                                     </form>
-                                                                                            </div>
-                                        </div>
+                </div>
+                <div class="row col-lg-6 justify-content-end mt-lg-0 mt-4">
 
+                    <div class="col-xxl-5 col-lg-6 ">
+                        <h5 class="fs21 main_txt mb-3">
+                            Billing
+                        </h5>
+                        <form>
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Full Name"
+                                value="Mr Rodrigo Smith">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Address">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="City">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="State">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Zip Code">
+                            <button class="btn px-4 py-2 fs16 text-white text-lg-start">
+                                Edit
+                            </button>
 
+                        </form>
+                    </div>
+                    <div class="col-xxl-5 col-lg-6 ">
+                        <h5 class="fs21 main_txt mb-3">
+                            Shipping
+                        </h5>
+                        <form>
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Full Name">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Address">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="City">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="State">
+                            <input type="text" class="px-4 fw-bold inp mb-3 w-100" required
+                                pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Zip Code">
+                            <button class="btn fs16 px-4 py-2 text-white text-lg-start">
+                                Edit
+                            </button>
+
+                        </form>
+                    </div>
                 </div>
 
+
             </div>
+
         </section>
         <footer class="bg-black px-3 px-lg-0 pb-5 pb-lg-0">
             <div class="row mt-5 align-items-center">
@@ -223,6 +234,7 @@ My Orders
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </body>
 
 </html>

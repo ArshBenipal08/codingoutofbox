@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     background-color: #1C1D2F;
-    background-size: cover
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dash {
@@ -28,9 +30,11 @@ footer {
 .fs12 {
     font-size: 12px
 }
-.fs72{
+
+.fs72 {
     font-size: 72px;
 }
+
 .fs14 {
     font-size: 14px
 }
@@ -115,31 +119,44 @@ a:hover {
 }
 
 .btn1 {
-    background: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    /* border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%); */
+    /* border-width: 1pt; */
+    /* border-image-slice: 1; */
+    background-image: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    border: none;
+    padding: 5px 32px;
     border-radius: 32px;
-    
 }
-.main_txt{
+
+.main_txt {
     background: linear-gradient(98.74deg, #EDC8FF 19.33%, #FFFFFF 95.62%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    padding-top: .25rem !important;
+    padding-bottom: .25rem !important;
 }
+
 .inp {
-    
+    border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    border-width: 0pt;
+    border-image-slice: 1;
     width: 50%;
     height: 56px;
-    background: #1C1D2F;
+    background: #25273B;
     font-size: 16px;
     color: #EDC8FF;
 }
 
-
 .inp1 {
+    border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    border-width: 0pt;
+    border-image-slice: 1;
     border: 1px solid #f0f0f0;
     border-radius: 8px;
-    width: 61px
+    width: 61px;
+    background: #25273B;
 }
 
 input[type=checkbox] {
@@ -147,10 +164,20 @@ input[type=checkbox] {
 }
 
 .inp2 {
+    border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    border-width: 0pt;
+    border-image-slice: 1;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid #f0f0f0
+    border: 1px solid #f0f0f0;
+    background: #25273B;
+}
+
+.inp:focus,
+input[type=text]:valid {
+    outline: none;
+    border-width: 1pt;
 }
 
 input[id=cb1] {
@@ -181,15 +208,17 @@ input[id=cb1] {
 }
 
 .btn {
-    
-
-
     border-radius: 32px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    padding: 5px 32px;
+    /* border-radius: 32px; */
+    /* border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%); */
+    /* border-width: 1pt; */
+    /* border-image-slice: 1; */
+    /* background-image: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9B65B6, #4C16E0);
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #1B1C31 inset;
-
 }
 
 .upper_footer::after {
@@ -240,54 +269,60 @@ input[id=cb1] {
         overflow-y: scroll;
         background-color: #fff
     }
-
-    .fsm48 {
-        font-size: 48px
+    .fsm40 {
+        font-size: 40px
     }
-
+    .dash_menu {
+        overflow-x: scroll;
+        position: relative;
+        /* flex-wrap: wrap; */
+        /* width: 700px; */
+        /* scrollbar-color: yellow; */
+        scrollbar-width: none;
+    }
+    .dash_menu::after {
+        overflow-x: scroll;
+        position: absolute;
+        content: '';
+        width: 650px;
+        height: 1px;
+        bottom: 0;
+        /* border: 1px solid; */
+        background: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    }
     .cp3 {
         width: 100% !important
     }
-
     .fsm15 {
         font-size: 15px
     }
-
     .dash {
         background-image: url(../media/backgrounds/Dashboard_mob.png);
         background-size: cover;
         background-position: center center
     }
-
     .dash-items.active {
         border-bottom: 5px solid #000
     }
-
     .dash-items a {
         color: #1d1d1d !important
     }
-
     .login .content {
         margin-top: 100px
     }
-
     .content-box2 {
         margin-top: 10px
     }
-
     .upper_footer {
         width: 90%
     }
-
     .upper_footer::after,
     .upper_footer::before {
         display: none
     }
-
     .fls {
         height: 130px
     }
-
     .fls.fls3 {
         height: 100px
     }
@@ -298,54 +333,60 @@ input[id=cb1] {
         overflow-y: scroll;
         background-color: #fff
     }
-
-    .fsm48 {
-        font-size: 48px
+    .fsm40 {
+        font-size: 40px
     }
-
+    .dash_menu {
+        overflow-x: scroll;
+        position: relative;
+        /* flex-wrap: wrap; */
+        /* width: 700px; */
+        /* scrollbar-color: yellow; */
+        scrollbar-width: none;
+    }
+    .dash_menu::after {
+        overflow-x: scroll;
+        position: absolute;
+        content: '';
+        width: 650px;
+        height: 1px;
+        bottom: 0;
+        /* border: 1px solid; */
+        background: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    }
     .cp3 {
         width: 100% !important
     }
-
     .fsm15 {
         font-size: 15px
     }
-
     .dash {
         background-image: url(../media/backgrounds/Dashboard_mob.png);
         background-size: cover;
         background-position: center center
     }
-
     .dash-items.active {
         border-bottom: 5px solid #000
     }
-
     .dash-items a {
         color: #1d1d1d !important
     }
-
     .login .content {
         margin-top: 100px
     }
-
     .content-box2 {
         margin-top: 10px
     }
-
     .upper_footer {
         width: 90%
     }
-
     .upper_footer::after,
     .upper_footer::before {
         display: none
     }
-
     .fls {
         height: 130px
     }
-
     .fls.fls3 {
         height: 100px
     }
@@ -356,54 +397,60 @@ input[id=cb1] {
         overflow-y: scroll;
         background-color: #fff
     }
-
-    .fsm48 {
-        font-size: 48px
+    .fsm40 {
+        font-size: 40px
     }
-
+    .dash_menu {
+        overflow-x: scroll;
+        position: relative;
+        /* flex-wrap: wrap; */
+        /* width: 700px; */
+        /* scrollbar-color: yellow; */
+        scrollbar-width: none;
+    }
+    .dash_menu::after {
+        overflow-x: scroll;
+        position: absolute;
+        content: '';
+        width: 650px;
+        height: 1px;
+        bottom: 0;
+        /* border: 1px solid; */
+        background: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
+    }
     .cp3 {
         width: 100% !important
     }
-
     .fsm15 {
         font-size: 15px
     }
-
     .dash {
         background-image: url(../media/backgrounds/Dashboard_mob.png);
         background-size: cover;
         background-position: center center
     }
-
     .dash-items.active {
         border-bottom: 5px solid #000
     }
-
     .dash-items a {
         color: #1d1d1d !important
     }
-
     .login .content {
         margin-top: 100px
     }
-
     .content-box2 {
         margin-top: 10px
     }
-
     .upper_footer {
         width: 90%
     }
-
     .upper_footer::after,
     .upper_footer::before {
         display: none
     }
-
     .fls {
         height: 130px
     }
-
     .fls.fls3 {
         height: 100px
     }
