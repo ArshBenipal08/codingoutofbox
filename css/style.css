@@ -100,7 +100,9 @@ footer {
 .fs28 {
     font-size: 28px
 }
-
+.fs28_1{
+    font-size: 28.43px;
+}
 .fs32 {
     font-size: 32px
 }
@@ -201,9 +203,7 @@ a:hover {
     background: #25273B;
 }
 
-input[type=checkbox] {
-    display: none
-}
+
 
 .inp2 {
     border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
@@ -217,7 +217,7 @@ input[type=checkbox] {
 }
 
 .inp:focus,
-input[type=text]:valid {
+input[type=text]:valid{
     outline: none;
     border-width: 1pt;
 }
@@ -284,7 +284,16 @@ input[id=cb1] {
     background-image: url(../media/background/Cylinder-Yellow-Glossy.svg);
     background-repeat: no-repeat
 }
-
+.card{
+    background: #25273B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 21px;
+}
 .cart {
     background: #1F2033;
     border: 1px solid #9B65B6;
@@ -297,7 +306,9 @@ input[id=cb1] {
 .text-white {
     color: #fff
 }
-
+.text-clr{
+    color: #005BB9;
+}
 .dash_nav {
     color: #fff
 }
@@ -318,11 +329,6 @@ input[id=cb1] {
     .dash_nav {
         overflow-y: scroll;
         background-color: #fff
-    }
-    .cart_up {
-        position: absolute;
-        top: 0;
-        right: 40px;
     }
     .navbar-brand {
         margin-left: 10px;
@@ -400,11 +406,6 @@ input[id=cb1] {
         overflow-y: scroll;
         background-color: #fff
     }
-    .cart_up {
-        position: absolute;
-        top: 0;
-        right: 40px;
-    }
     .navbar-brand {
         margin-left: 10px;
     }
@@ -480,11 +481,6 @@ input[id=cb1] {
     .dash_nav {
         overflow-y: scroll;
         background-color: #fff
-    }
-    .cart_up {
-        position: absolute;
-        top: 0;
-        right: 40px;
     }
     .navbar-brand {
         margin-left: 10px;
