@@ -3,7 +3,7 @@ const context = sphereCanvas.getContext("2d"),
   sphereWidth = (sphereCanvas.width = 420),
   sphereHeight = (sphereCanvas.height = 420);
 
-document.body.appendChild(sphereCanvas);
+document.querySelector(".sphere").appendChild(sphereCanvas);
 
 class Point {
   constructor(x, y, z) {
