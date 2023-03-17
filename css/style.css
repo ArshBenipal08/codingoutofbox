@@ -100,9 +100,11 @@ footer {
 .fs28 {
     font-size: 28px
 }
-.fs28_1{
+
+.fs28_1 {
     font-size: 28.43px;
 }
+
 .fs32 {
     font-size: 32px
 }
@@ -203,8 +205,6 @@ a:hover {
     background: #25273B;
 }
 
-
-
 .inp2 {
     border-image-source: linear-gradient(90deg, #9B65B6 0%, #4C16E0 100%);
     border-width: 0pt;
@@ -217,7 +217,7 @@ a:hover {
 }
 
 .inp:focus,
-input[type=text]:valid{
+input[type=text]:valid {
     outline: none;
     border-width: 1pt;
 }
@@ -284,7 +284,8 @@ input[id=cb1] {
     background-image: url(../media/background/Cylinder-Yellow-Glossy.svg);
     background-repeat: no-repeat
 }
-.card{
+
+.card {
     background: #25273B;
     color: white;
     display: flex;
@@ -294,6 +295,7 @@ input[id=cb1] {
     padding: 40px 0px;
     gap: 21px;
 }
+
 .cart {
     background: #1F2033;
     border: 1px solid #9B65B6;
@@ -306,9 +308,11 @@ input[id=cb1] {
 .text-white {
     color: #fff
 }
-.text-clr{
+
+.text-clr {
     color: #005BB9;
 }
+
 .dash_nav {
     color: #fff
 }
@@ -323,6 +327,136 @@ input[id=cb1] {
     width: 1px;
     height: 100%;
     background: linear-gradient(270deg, #9B65B6 0%, #4C16E0 100%);
+}
+
+.wires_out {
+    /* width: 3469px; */
+    overflow-x: scroll;
+    touch-action: pan-x;
+}
+
+.ww {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    left: 100px;
+    position: absolute;
+    z-index: 99;
+    background-image: url(../media/backgrounds/Connective\ Wires.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position-x: center; */
+    background-position-x: 35px;
+    background-position-y: 49px;
+}
+
+.c {
+    box-shadow: 0px 14px 24px rgba(22, 23, 39, 0.8);
+}
+
+.c1::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/Orange.png);
+    top: -165px;
+    left: 166px;
+    background-repeat: no-repeat;
+}
+
+.c2::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/Green.png);
+    top: 190px;
+    left: -37px;
+    background-repeat: no-repeat;
+}
+
+.c4 {
+    margin-left: 119px;
+}
+
+.c4::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/Purple.png);
+    top: 79px;
+    left: -250px;
+    background-repeat: no-repeat;
+}
+
+.c6 {
+    margin-left: 293px;
+}
+
+.c5 {
+    margin-left: -57px;
+}
+
+.c5::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/Blue.png);
+    top: -169px;
+    left: 109px;
+    background-repeat: no-repeat;
+}
+
+.c7 {
+    margin-left: -122px;
+}
+
+.c6::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/Purple-1.png);
+    top: 193px;
+    left: 6px;
+    background-repeat: no-repeat;
+}
+
+.c7::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/Orange-1.png);
+    top: -55px;
+    left: 392px;
+    background-repeat: no-repeat;
+}
+
+.c9::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/backgrounds/blue-1.png);
+    top: -170px;
+    left: 68px;
+    background-repeat: no-repeat;
+}
+
+.c8 {
+    margin-left: 365px;
+}
+
+.c9 {
+    margin-left: -141px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 @media (max-width:350px) and (min-width:50px) {
@@ -398,6 +532,45 @@ input[id=cb1] {
     }
     .fls.fls3 {
         height: 100px
+    }
+    .fsm40 {
+        font-size: 40px;
+    }
+    .fsm18 {
+        font-size: 18px;
+    }
+    .fsm14 {
+        font-size: 14px;
+    }
+    .fsm32 {
+        font-size: 32px;
+    }
+    .main_nav::after {
+        top: 60px;
+    }
+    #navbarNav {
+        height: 800px;
+    }
+    .imb {
+        background-image: url(../media/backgrounds/Border_m.png) !important;
+        height: 473px;
+        background-position: center;
+        /* padding: 0 !important; */
+        /* background-size: cover; */
+    }
+    .main_txt2 {
+        background: linear-gradient(98.74deg, #EDC8FF 19.33%, #FFFFFF 95.62%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-emphasis-color: transparent;
+        padding-top: .25rem !important;
+        padding-bottom: .25rem !important;
+    }
+    .particlehead canvas {
+        /* padding-top: 100px; */
+        width: 100% !important;
+        height: 110% !important;
     }
 }
 
@@ -475,6 +648,45 @@ input[id=cb1] {
     .fls.fls3 {
         height: 100px
     }
+    .fsm40 {
+        font-size: 40px;
+    }
+    .fsm18 {
+        font-size: 18px;
+    }
+    .fsm14 {
+        font-size: 14px;
+    }
+    .fsm32 {
+        font-size: 32px;
+    }
+    .main_nav::after {
+        top: 60px;
+    }
+    #navbarNav {
+        height: 800px;
+    }
+    .imb {
+        background-image: url(../media/backgrounds/Border_m.png) !important;
+        height: 473px;
+        background-position: center;
+        /* padding: 0 !important; */
+        /* background-size: cover; */
+    }
+    .main_txt2 {
+        background: linear-gradient(98.74deg, #EDC8FF 19.33%, #FFFFFF 95.62%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-emphasis-color: transparent;
+        padding-top: .25rem !important;
+        padding-bottom: .25rem !important;
+    }
+    .particlehead canvas {
+        /* padding-top: 100px; */
+        width: 100% !important;
+        height: 110% !important;
+    }
 }
 
 @media (max-width:800px) and (min-width:600px) {
@@ -551,6 +763,45 @@ input[id=cb1] {
     .fls.fls3 {
         height: 100px
     }
+    .fsm40 {
+        font-size: 40px;
+    }
+    .fsm18 {
+        font-size: 18px;
+    }
+    .fsm14 {
+        font-size: 14px;
+    }
+    .fsm32 {
+        font-size: 32px;
+    }
+    .main_nav::after {
+        top: 60px;
+    }
+    #navbarNav {
+        height: 800px;
+    }
+    .imb {
+        background-image: url(../media/backgrounds/Border_m.png) !important;
+        height: 473px;
+        background-position: center;
+        /* padding: 0 !important; */
+        /* background-size: cover; */
+    }
+    .main_txt2 {
+        background: linear-gradient(98.74deg, #EDC8FF 19.33%, #FFFFFF 95.62%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-emphasis-color: transparent;
+        padding-top: .25rem !important;
+        padding-bottom: .25rem !important;
+    }
+    .particlehead canvas {
+        /* padding-top: 100px; */
+        width: 100% !important;
+        height: 110% !important;
+    }
 }
 
 @media (max-width:1024px) and (min-width:999px) {
@@ -569,6 +820,20 @@ input[id=cb1] {
     #navbarNav {
         /* margin-right: -0px; */
     }
+    .ww {
+        width: 120%;
+        height: 100%;
+        margin: 0 auto;
+        left: -50px;
+        position: absolute;
+        z-index: 99;
+        background-image: url(../media/backgrounds/Connective\ Wires.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        /* background-position-x: center; */
+        background-position-x: 0px;
+        background-position-y: 49px;
+    }
 }
 
 
@@ -580,6 +845,20 @@ input[id=cb1] {
     }
     #navbarNav {
         /* margin-right: -0px; */
+    }
+    .ww {
+        width: 120%;
+        height: 100%;
+        margin: 0 auto;
+        left: -50px;
+        position: absolute;
+        z-index: 99;
+        background-image: url(../media/backgrounds/Connective\ Wires.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        /* background-position-x: center; */
+        background-position-x: 0px;
+        background-position-y: 49px;
     }
 }
 
@@ -593,6 +872,20 @@ input[id=cb1] {
     #navbarNav {
         /* margin-right: -0px; */
     }
+    .ww {
+        width: 120%;
+        height: 100%;
+        margin: 0 auto;
+        left: -50px;
+        position: absolute;
+        z-index: 99;
+        background-image: url(../media/backgrounds/Connective\ Wires.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        /* background-position-x: center; */
+        background-position-x: 0px;
+        background-position-y: 49px;
+    }
 }
 
 
@@ -604,6 +897,20 @@ input[id=cb1] {
     }
     #navbarNav {
         margin-right: -0px;
+    }
+    .ww {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        left: 45px;
+        position: absolute;
+        z-index: 99;
+        background-image: url(../media/backgrounds/Connective\ Wires.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        /* background-position-x: center; */
+        background-position-x: 0px;
+        background-position-y: 49px;
     }
 }
 

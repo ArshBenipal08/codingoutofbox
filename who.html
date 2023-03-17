@@ -28,7 +28,7 @@
                         <a class="navbar-brand" href="#">
                             <img src="media/logo/logo.png" alt="">
                         </a>
-                        <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <i class="fs32 fa-solid main_txt fa-bars"></i>
@@ -36,34 +36,36 @@
                         </button>
                         <div class="collapse px-4 navbar-collapse justify-content-end pe-lg-5 align-items-center "
                             id="navbarNav">
-                            <ul class="navbar-nav  py-4 align-items-start gap-4">
+                            <ul class="navbar-nav mt-lg-0 mt-4  py-lg-0 py-3 align-items-start gap-lg-4">
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bold fs16 text-capitalize text-white" aria-current="page"
-                                        href="#">Our
+                                    <a class="nav-link main_txt2 fsm32 fw-bold fs16 text-capitalize text-white"
+                                        aria-current="page" href="#">Our
                                         Store</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bold fs16 text-capitalize text-white" href="#">How we
+                                    <a class="nav-link main_txt2 fsm32 fw-bold fs16 text-capitalize text-white"
+                                        href="#">How we
                                         support</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bold fs16 text-capitalize text-white" href="#">Who we are</a>
+                                    <a class="nav-link main_txt2 fsm32 fw-bold fs16 text-capitalize text-white"
+                                        href="#">Who we are</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bold fs16 text-capitalize text-white" href="#">Contact us</a>
+                                    <a class="nav-link main_txt2 fsm32 fw-bold fs16 text-capitalize text-white"
+                                        href="#">Contact us</a>
                                 </li>
-
-
                             </ul>
-                            <ul class="navbar-nav flex-row position-relative gap-2 align-items-center">
+                            <ul
+                                class="navbar-nav mt-lg-0 mt-4 flex-lg-row position-relative gap-2 align-items-lg-center">
 
-                                <div class="nav-item bor mx-3"></div>
+                                <div class="nav-item bor mx-3 d-none d-lg-block"></div>
 
-                                <li class="nav-item ms-4">
+                                <li class="nav-item ms-lg-4 order-lg-0 order-1">
                                     <a class="nav-link fw-bold fs16 text-capitalize text-white"
                                         href="#">Login/Register</a>
                                 </li>
-                                <li class="fs16 dropdown position-relative">
+                                <li class=" fs16 dropdown position-relative nav-item order-lg-1 order-2">
                                     <a class="nav-link fw-bold active  dropdown-toggle text-white" href="#"
                                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
@@ -82,10 +84,10 @@
 
                                     </ul>
                                 </li>
-                                <li class="">
-                                    <a class="nav-link fw-bold fs16 text-capitalize text-white fw-bold main_txt d-flex align-items-center"
+                                <li class="nav-item order-lg-2 order-0">
+                                    <a class="nav-link  fw-bold fs16 text-capitalize text-white fw-bold main_txt d-flex align-items-center"
                                         href="#">
-                                        <span class="material-symbols-outlined fs21">
+                                        <span class="material-symbols-outlined fs21 ">
                                             shopping_cart
                                         </span> Basket
                                     </a>
@@ -366,7 +368,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-100"
+        <div class="w-100 py-5"
             style="background-image: url(media/backgrounds/My\ Account\ Details.png); background-position: center; background-size: cover;">
             <section class="container mt-5 pt-lg-5">
                 <div class="row justify-content-center position-relative  py-5 px-2">
@@ -387,15 +389,12 @@
                         </button>
 
                     </div>
-
-
-
                 </div>
 
             </section>
         </div>
-        <footer class=" bg-black px-3 px-lg-0 pb-lg-5 pb-lg-0"
-            style="background-image: url(media/backgrounds/foBackground.png);">
+        <footer class=" bg-black px-3 px-lg-0 pb-lg-5 pb-lg-0 position-relative">
+            <canvas id="paper" class="position-absolute"></canvas>
             <div class="container pt-5 pb-4">
                 <div class="row justify-content-center">
                     <div class="col-lg-3 col-12 d-flex justify-content-center">
@@ -510,6 +509,11 @@
         }
         // ]]>
     </script>
+
+
+    <script src="js/footer.js"></script>
+    <!-- Code injected by live-server -->
+
 
 
 </body>
