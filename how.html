@@ -12,7 +12,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
@@ -101,26 +102,96 @@
             </div>
         </div>
 
-        <div class="w-100 mt-5 pt-lg-5 pt-lg-0"
+        <div class="mt-5 py-lg-5 pt-0 position-relative"
             style="background-image: url(media/backgrounds/who1.png); background-position: center; background-repeat: no-repeat;">
-            <div class="container mt-5 pt-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 order-0 order-lg-1">
-                        <!-- <div class="particlehead"></div> -->
-                    </div>
+            <div id="wave" class="position-absolute"></div>
+            <div class="container mt-5 py-5">
 
-                    <div class="col-lg-8 d-flex flex-column justify-content-center order-1 order-lg-1">
-                        <h2 class="fs72 main_txt fsm40 text-capitalize">Increase your Development Skills, Think outside
-                            the box</h2>
+                <div class="row justify-content-end">
+                    <div class="col-lg-7 d-flex flex-column justify-content-center order-1 order-lg-1">
+                        <h2 class="fs72 main_txt fsm40 text-capitalize">We Streamline your learning process</h2>
                         <p class="fs16 fsm15 text-white">Amet pretium scelerisque vestibulum ipsum in ornare. Sed proin
                             amet neque accumsan. Integer morbi molestie ante sed mi. Cursus adipiscing.
                         </p>
-
-                        <button class="px-lg-4 btn1  col-lg-3 col-7  py-lg-2 py-3  text-white  fs16">
+                        <button class="px-lg-4 btn1 col-xxl-3 col-lg-4 col-7  py-lg-2 py-3  text-white  fs16">
                             How we support
                         </button>
                     </div>
 
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-lg-5 py-lg-5 pt-0 position-relative"
+            style="background-image: url(media/backgrounds/who1.png); background-position: center; background-repeat: no-repeat;">
+            <div id="wave" class="position-absolute"></div>
+            <div class="container mt-lg-5 py-lg-5">
+
+                <div class="row justify-content-end">
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-center ">
+                        <h2 class="fs56 main_txt fsm40 text-capitalize">We will support your learning from as little as
+                            £10pm
+                        </h2>
+                        <p class="fs16 fsm15 text-white">Egestas mi varius vestibulum nunc ornare urna turpis sed. Nisi
+                            nunc lectus posuere justo. Nisi sed hendrerit sed non convallis nisi praesent porta amet.
+                            Amet ultrices ultrices vulputate in praesent. Sit dictum eget luctus nunc.
+                            Diam sit turpis tellus aenean blandit maecenas accumsan. Dignissim.
+                        </p>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class=" row col-lg-12 justify-content-between mt-lg-0 mt-4 px-lg-5">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" class="px-4 fw-bold inp  w-100" required
+                                        pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Full Name"
+                                        value="Full Name">
+                                </div>
+
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" class="px-4 fw-bold inp  w-100" required
+                                        pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Phone Number">
+                                </div>
+
+                                <div class="col-12 mb-4">
+                                    <input type="email" class="px-4 fw-bold inp  w-100" required
+                                        pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Email">
+
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <textarea type="password" class="px-4 fw-bold inp w-100" required
+                                        pattern="^[a-zA-Z0-9][a-zA-Z0-9\s]{5,20}$" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12 mb-4 align-items-center gap-3 mb-4 d-flex text-white fs14 main_txt">
+                                    <input type="checkbox" class="checkbox form-check" id="terms">
+                                    <label for="terms" class="checkboxL"></label>
+                                    <label for="terms">
+                                        By requesting a call you are agreeing to our consultancy rates*</label>
+                                </div>
+                                <div class="col-12 mb-4 align-items-center gap-3 mb-4 d-flex text-white fs14 main_txt">
+                                    <input type="checkbox" class="checkbox form-check" id="terms2">
+                                    <label for="terms2" class="checkboxL"></label>
+                                    <label for="terms2">
+                                        I agree with the
+                                        <span class="text-clr">Terms and Conditions</span> and
+                                        <span class="text-clr"> Privacy Policy</span> </label>
+                                </div>
+
+                                <div class="col-lg-6 col-8">
+                                    <img src="media/backgrounds/robot.png" class="w-100">
+                                </div>
+                                <div class="col-lg-6 col-7 mt-lg-0 mt-4">
+                                    <button class="btn1 w-100 px-3 py-3 fs16 text-white text-lg-end">
+                                        Send my message
+                                    </button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
 
                 </div>
             </div>
@@ -135,8 +206,10 @@
                     height: 514px;
                     ">
                         <dic class="fs56 col-lg-8 col-12  text-capitalize  main_txt fsm32 text-center">
-                            There are so <br class="d-block d-lg-none"> many possibilities <br
-                                class="d-block d-lg-none"> with coding
+
+                            Have an impact <br class="d-block d-lg-none"> on the world <br class="d-block d-lg-none">
+                            around you
+
                         </dic>
                         <p class="fs16 fsm15 text-center text-white col-lg-7 col-9">
                             Accumsan ultrices eu at varius scelerisque sed. Erat nisl quisque eu purus gravida. Aliquet
@@ -144,7 +217,7 @@
                             nunc. Vestibulum fringilla at augue nisl.
                         </p>
                         <button class="px-2 btn1  col-lg-2 col-5  py-2  text-white  fs16">
-                            Who we are
+                            Our store
                         </button>
 
                     </div>
@@ -152,236 +225,126 @@
 
             </section>
         </div>
-        <div class="w-100 my-lg-5 py-lg-5 "
-            style="background-image: url(media/backgrounds/who2.png); background-repeat: no-repeat; background-size: cover;">
-            <div class="container mt-lg-5  position-relative">
-                <div class="row ">
-                    <div class="col-lg-12  text-center">
-                        <h2 class="fs56 main_txt fsm32 col-lg-10 col-10  mx-auto text-capitalize">It’s more creative and
-                            exciting than it sounds
+
+
+
+
+
+        <div class="mt-lg-5 py-lg-5 pt-0 position-relative"
+            style="background-image: url(media/backgrounds/who1.png); background-position: center; background-repeat: no-repeat;">
+            <div id="wave" class="position-absolute"></div>
+            <div class="container mt-lg-5 py-lg-5">
+
+                <div class="row justify-content-end">
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-center ">
+                        <h2 class="fs56 main_txt fsm40 text-capitalize">Frequently asked questions
                         </h2>
-                        <p class="fs16 fsm15 text-white col-10 mx-auto col-lg-12">Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod
-                        </p>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-            <div class="container my-5 position-relative px-4 px-lg-0">
-                <div class="ww d-none d-lg-block">
-                </div>
-                <div class="row gap-4 justify-content-center">
-                    <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
-                        <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
-                            <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21 fsm18">Authentic learning</div>
-                                <div class="main_txt fs21 fsm14 opacity-75">Physically building a product</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
-                        <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
-                            <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gap-4 mt-lg-5 pt-lg-5 pt-4 justify-content-center">
-                    <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
-                        <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
-                            <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
-                        <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
-                            <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gap-4 mt-lg-5 pt-4 justify-content-center">
-                    <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
-                        <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
-                            <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-        <div class="mt-lg-5 pt-lg-5">
-            <div class="container">
-                <div class="row justify-content-center gap-lg-5">
-                    <div class="col-lg-5 order-lg-1 order-1 align-items-lg-end flex-column d-flex">
-                        <p class="fs16 fsm15 text-white text-lg-end col-lg-9">Lectus viverra dictum in auctor. Faucibus
-                            facilisis bibendum enim in. Vestibulum amet habitasse mauris feugiat in senectus quis.
-                            Iaculis aliquam.
-                        </p>
-                        <button class="px-4 btn1 col-xxl-5 col-lg-7 col-7  py-lg-2 py-3  text-white  fs16">
-                            View all products
-                        </button>
-                    </div>
-
-                    <div class="col-lg-5 d-flex flex-column justify-content-center order-lg-0 order-0">
-                        <div class="fs56 main_txt fsm32 text-capitalize">Our digital Products lead the dev market</div>
-
-                    </div>
-                </div>
-                <div class="row justify-content-center gap-5 mt-4 px-lg-0 px-3">
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
-                        <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
-                            <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
-
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
-                                <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
-                                    Read more
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
-                        <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
-                            <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
-
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
-                                <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
-                                    Read more
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
-                        <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
-                            <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
-
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
-                                <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
-                                    Read more
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
-                        <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
-                            <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
-
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
-                                <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
-                                    Read more
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
-                        <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
-                            <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
-
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
-                                <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
-                                    Read more
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
-                        <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
-                            <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
-
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
-                                <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
-                                    Read more
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-        <div class="w-100 my-5 py-lg-5" style="background-image: url(media/backgrounds/who1.png);">
-            <div class="container-fluid mt-5 pt-5 ">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 order-lg-0 order-0">
-                        <img src="media/backgrounds/Screenshot 2023-03-01 at 13.03 1.png" class="w-100" alt="">
-                    </div>
-
-                    <div class="col-lg-5 d-flex flex-column justify-content-center order-lg-1 order-1">
-                        <h2 class="fs56 main_txt fsm32 text-capitalize pe-lg-5">Learn everything there is to know about
-                            coding
-                        </h2>
-                        <p class="fs16 fsm15 text-white col-lg-10">Egestas mi varius vestibulum nunc ornare urna turpis
-                            sed. Nisi nunc lectus posuere justo. Nisi sed hendrerit sed non convallis nisi praesent
-                            porta amet. Amet ultrices ultrices vulputate in praesent. Sit dictum eget luctus nunc.
+                        <p class="fs16 fsm15 text-white">Egestas mi varius vestibulum nunc ornare urna turpis sed. Nisi
+                            nunc lectus posuere justo. Nisi sed hendrerit sed non convallis nisi praesent porta amet.
+                            Amet ultrices ultrices vulputate in praesent. Sit dictum eget luctus nunc.
                             Diam sit turpis tellus aenean blandit maecenas accumsan. Dignissim.
                         </p>
-                        <button class="px-2 btn1 col-lg-2 col-6  py-lg-2 py-3  text-white  fs16">
-                            Contact us
-                        </button>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item my-lg-4">
+                                <h2 class="accordion-header fs16" id="headingOne">
+                                    <button class="accordion-button  main_txt fs16" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <div class="col-lg-7">
+                                            IM Guide to Website Design And DevelopmentLorem ipsum dolor sit amet,
+                                            consectetur?
+                                        </div>
+
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="col-lg-10 pe-4">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-4">
+                                <h2 class="accordion-header fs16 " id="headingTwo">
+                                    <button class="accordion-button  main_txt fs16 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <div class="col-lg-7">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor?
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="col-lg-10 pe-4">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-4">
+                                <h2 class="accordion-header fs16 " id="headingThree">
+                                    <button class="accordion-button  main_txt fs16 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <div class="col-lg-7">
+                                            Lorem ipsum dolor sit amet, consectetur?
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="col-lg-10 pe-4">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item my-4">
+                                <h2 class="accordion-header fs16 " id="headingThree">
+                                    <button class="accordion-button main_txt fs16 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFoyr" aria-expanded="false"
+                                        aria-controls="collapseFoyr">
+                                        <div class="col-lg-7">
+                                            Lorem ipsum dolor sit amet, consectetur?
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="collapseFoyr" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="col-lg-10 pe-4">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
