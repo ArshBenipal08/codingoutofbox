@@ -33,8 +33,8 @@ function makePositions() {
   }
 }
 makePositions();
-var draw = function (t) {
-  requestAnimationFrame(draw);
+var draw1 = function (t) {
+  requestAnimationFrame(draw1);
   ctx.clearRect(0, 0, width, height);
   ctx.fillStyle = "white";
   for (var x = 0; x < positions.length; x++) {
@@ -67,7 +67,4 @@ var draw = function (t) {
     }
   }
 };
-draw(1);
-document.getElementById("drawButton").addEventListener("click", function () {
-  makePositions();
-});
+draw1(1);

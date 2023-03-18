@@ -15,6 +15,28 @@
 
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="media/favicons/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="media/favicons/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="media/favicons/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="media/favicons/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="media/favicons/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="media/favicons/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="media/favicons/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="media/favicons/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicons/apple-icon-180x180.png" />
+    <!-- <link rel="icon" type="image/png" sizes="192x192" href="media/favicons/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="media/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="media/favicons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="media/favicons/favicon-16x16.png" /> -->
+    <link rel="shortcut icon" href="media/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="media/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="media/favicons/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir&display=swap">
+    <title>HOme</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
 
@@ -37,8 +59,8 @@
                         <div class="collapse px-4 navbar-collapse justify-content-end pe-lg-5 align-items-center "
                             id="navbarNav">
                             <ul class="navbar-nav mt-lg-0 mt-4  py-lg-0 py-3 align-items-start gap-lg-4">
-                                <li class="nav-item">
-                                    <a class="nav-link main_txt2 fsm32 fw-bold fs16 text-capitalize text-white"
+                                <li class="nav-item ">
+                                    <a class="nav-link main_txt2  active fsm32 fw-bold fs16 text-capitalize text-white"
                                         aria-current="page" href="#">Our
                                         Store</a>
                                 </li>
@@ -65,11 +87,12 @@
                                     <a class="nav-link fw-bold fs16 text-capitalize text-white"
                                         href="#">Login/Register</a>
                                 </li>
-                                <li class=" fs16 dropdown position-relative nav-item order-lg-1 order-2">
-                                    <a class="nav-link fw-bold active  dropdown-toggle text-white" href="#"
+                                <li class="fs16 dropdown position-relative nav-item order-lg-1 order-2">
+                                    <a class="nav-link fw-bold  dropdown-toggle  text-white" href="#"
                                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         GBP
+                                        <i class="fa fa-chevron-down text-white fs14 ms-1"> </i>
                                     </a>
                                     <ul class="dropdown-menu position-absolute"
                                         aria-labelledby="navbarDropdownMenuLink">
@@ -85,7 +108,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item order-lg-2 order-0">
-                                    <a class="nav-link  fw-bold fs16 text-capitalize text-white fw-bold main_txt d-flex align-items-center"
+                                    <a class="nav-link fw-bold fs16 text-capitalize text-white fw-bold  d-flex align-items-center"
                                         href="#">
                                         <span class="material-symbols-outlined fs21 ">
                                             shopping_cart
@@ -103,7 +126,7 @@
 
         <div class="w-100 mt-5 pt-lg-5 pt-lg-0"
             style="background-image: url(media/backgrounds/who1.png); background-position: center; background-repeat: no-repeat;">
-            <div class="container mt-5 pt-5">
+            <div class="first container mt-5 pt-5 position-relative" style="z-index: 99;">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 order-0 order-lg-1">
                         <div class="particlehead"></div>
@@ -112,29 +135,46 @@
                     <div class="col-lg-8 d-flex flex-column justify-content-center order-1 order-lg-0">
                         <h2 class="fs72 main_txt fsm40 text-capitalize">Increase your Development Skills, Think outside
                             the box</h2>
-                        <p class="fs16 fsm15 text-white">Amet pretium scelerisque vestibulum ipsum in ornare. Sed proin
-                            amet neque accumsan. Integer morbi molestie ante sed mi. Cursus adipiscing.
+                        <p class="fs24 fsm15 text-white col-lg-9">Amet pretium scelerisque vestibulum ipsum in ornare.
+                            Sed proin amet neque accumsan. Integer morbi molestie ante sed mi. Cursus adipiscing.
                         </p>
 
-                        <button class="px-lg-4 btn1  col-lg-3 col-7  py-lg-2 py-3  text-white  fs16">
+                        <button class="px-lg-4 btn1 col-xxl-3 col-lg-4 col-7  py-lg-2 py-3  text-white  fs16">
                             How we support
                         </button>
                     </div>
 
 
                 </div>
+
+            </div>
+            <div class="text-center text-white d-flex justify-content-center gap-3 ">
+                <p class="fs18">Scroll down to learn more</p>
+                <svg width="12" height="32" viewBox="0 0 12 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 32L11.7735 22L0.226498 22L6 32ZM5 4.37114e-08L5 23L7 23L7 -4.37114e-08L5 4.37114e-08Z"
+                        fill="url(#paint0_linear_1973_193)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1973_193" x1="6.5" y1="-2.18557e-08" x2="6.5" y2="32"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0" />
+                            <stop offset="1" stop-color="white" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+
             </div>
         </div>
 
-        <div class="w-100 py-lg-5 "
-            style="background-image: url(media/backgrounds/My\ Account\ Details.png); background-position: center; background-size: cover;">
-            <section class="container mt-lg-5 pt-lg-5">
-                <div class="row justify-content-center position-relative  py-5 px-lg-2">
+        <div class="w-100 "
+            style="background-image: url(media/backgrounds/homepage_bg2.png); background-position: center; background-repeat: no-repeat;">
+            <section class="container mt-lg-5 py-lg-5">
+                <div class="row justify-content-center position-relative mb-lg-5  py-5 px-lg-2">
                     <div class="imb col-lg-10 col-12 d-flex justify-content-center flex-column align-items-center"
                         style="background-image: url(media/backgrounds/Border.png); background-repeat: no-repeat;
                     height: 514px;
                     ">
-                        <dic class="fs56 col-lg-8 col-12  text-capitalize  main_txt fsm32 text-center">
+                        <dic class="fs56 lh-1 col-lg-8 col-12  text-capitalize  main_txt fsm32 text-center">
                             There are so <br class="d-block d-lg-none"> many possibilities <br
                                 class="d-block d-lg-none"> with coding
                         </dic>
@@ -152,9 +192,9 @@
 
             </section>
         </div>
-        <div class="w-100 my-lg-5 py-lg-5 "
-            style="background-image: url(media/backgrounds/who2.png); background-repeat: no-repeat; background-size: cover;">
-            <div class="container mt-lg-5  position-relative">
+        <div class="w-100 my-lg-5 py-lg-5"
+            style="background-image: url(media/backgrounds/homepage_bg3.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <div class=" container mt-lg-5  position-relative">
                 <div class="row ">
                     <div class="col-lg-12  text-center">
                         <h2 class="fs56 main_txt fsm32 col-lg-10 col-10  mx-auto text-capitalize">It’s more creative and
@@ -170,13 +210,13 @@
                 </div>
 
             </div>
-            <div class="container my-5 position-relative px-4 px-lg-0">
+            <div class="container my-5 position-relative py-lg-5 px-4 px-lg-0">
                 <div class="ww d-none d-lg-block">
                 </div>
                 <div class="row gap-4 justify-content-center">
                     <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
                         <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
+                            <img src="media/backgrounds/1.png" alt="">
                             <div class="d-flex flex-column justify-content-center  lh-1">
                                 <div class="main_txt fs21 fsm18">Authentic learning</div>
                                 <div class="main_txt fs21 fsm14 opacity-75">Physically building a product</div>
@@ -188,8 +228,8 @@
                         <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
                             <img src="media/backgrounds/Group 8250.svg" alt="">
                             <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
+                                <div class="main_txt fs21  fsm18">So much creativity</div>
+                                <div class="main_txt fs21  fsm14 opacity-75">graphic, animation, storytelling</div>
                             </div>
                         </div>
                     </div>
@@ -197,20 +237,20 @@
                 <div class="row gap-4 mt-lg-5 pt-lg-5 pt-4 justify-content-center">
                     <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
                         <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
+                            <img src="media/backgrounds/2.png" alt="">
                             <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
+                                <div class="main_txt fs21  fsm18">Problem solving</div>
+                                <div class="main_txt fs21  fsm14 opacity-75">Creating digital solutions</div>
                             </div>
                         </div>
                     </div>
 
                     <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
                         <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
+                            <img src="media/backgrounds/3.png" alt="">
                             <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
+                                <div class="main_txt fs21  fsm18">Teamwork</div>
+                                <div class="main_txt fs21  fsm14 opacity-75">You don’t have to learn alone</div>
                             </div>
                         </div>
                     </div>
@@ -218,10 +258,10 @@
                 <div class="row gap-4 mt-lg-5 pt-4 justify-content-center">
                     <div class="c" style="width: 443px; height: 93px; background-color: #25273B;">
                         <div class="d-flex pt-3 align-items-center justify-content-start gap-2 ">
-                            <img src="media/backgrounds/Group 8250.svg" alt="">
+                            <img src="media/backgrounds/4.png" alt="">
                             <div class="d-flex flex-column justify-content-center  lh-1">
-                                <div class="main_txt fs21  fsm18">Authentic learning</div>
-                                <div class="main_txt fs21  fsm14 opacity-75">Physically building a product</div>
+                                <div class="main_txt fs21  fsm18">You don’t have to learn alone</div>
+                                <div class="main_txt fs21  fsm14 opacity-75">Coding is a universal language</div>
                             </div>
                         </div>
                     </div>
@@ -232,7 +272,17 @@
             </div>
         </div>
 
-        <div class="mt-lg-5 pt-lg-5">
+        <div class="mt-lg-5 pt-lg-5 position-relative">
+            <div class="d-flex w-100 position-absolute h-100">
+                <div class=""
+                    style="width: 30%; background-image: url(media/backgrounds/homepage_bg2.png); background-position: center; background-repeat: no-repeat;">
+
+                </div>
+                <div class="w-75"
+                    style="background-image: url(media/backgrounds/homepage_bg2.png); background-position: center; background-repeat: no-repeat;">
+
+                </div>
+            </div>
             <div class="container">
                 <div class="row justify-content-center gap-lg-5">
                     <div class="col-lg-5 order-lg-1 order-1 align-items-lg-end flex-column d-flex">
@@ -251,17 +301,17 @@
                     </div>
                 </div>
                 <div class="row justify-content-center gap-5 mt-4 px-lg-0 px-3">
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
+                    <div class="lborder col-lg-5 row p-lg-0 p-4">
                         <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
+                            <img src="media/backgrounds/pros.png" class="w-100 h-100" alt="">
                         </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
+                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-0 py-3">
+                            <div class="cat fs14">E-book</div>
                             <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
 
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
+                            <div class="d-flex justify-content-between mt-lg-3 mt-3">
                                 <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
+                                <button class="px-lg-1 px-3 btn col-xxl-5 col-lg-6 col-6 py-2  text-white  fs16">
                                     Read more
                                 </button>
                             </div>
@@ -269,17 +319,17 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
+                    <div class="lborder col-lg-5 row p-lg-0 p-4">
                         <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
+                            <img src="media/backgrounds/pros.png" class="w-100 h-100" alt="">
                         </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
+                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-0 py-3">
+                            <div class="cat fs14">E-book</div>
                             <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
 
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
+                            <div class="d-flex justify-content-between mt-lg-3 mt-3">
                                 <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
+                                <button class="px-lg-1 px-3 btn col-xxl-5 col-lg-6 col-6 py-2  text-white  fs16">
                                     Read more
                                 </button>
                             </div>
@@ -287,34 +337,34 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
+                    <div class="lborder col-lg-5 row p-lg-0 p-4">
                         <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
+                            <img src="media/backgrounds/pros.png" class="w-100 h-100" alt="">
                         </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
+                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-0 py-3">
+                            <div class="cat fs14">E-book</div>
                             <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
 
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
+                            <div class="d-flex justify-content-between mt-lg-3 mt-3">
                                 <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
+                                <button class="px-lg-1 px-3 btn col-xxl-5 col-lg-6 col-6 py-2  text-white  fs16">
                                     Read more
                                 </button>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
+                    <div class="lborder col-lg-5 row p-lg-0 p-4">
                         <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
+                            <img src="media/backgrounds/pros.png" class="w-100 h-100" alt="">
                         </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
+                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-0 py-3">
+                            <div class="cat fs14">E-book</div>
                             <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
 
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
+                            <div class="d-flex justify-content-between mt-lg-3 mt-3">
                                 <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
+                                <button class="px-lg-1 px-3 btn col-xxl-5 col-lg-6 col-6 py-2  text-white  fs16">
                                     Read more
                                 </button>
                             </div>
@@ -322,34 +372,34 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
+                    <div class="lborder col-lg-5 row p-lg-0 p-4">
                         <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
+                            <img src="media/backgrounds/pros.png" class="w-100 h-100" alt="">
                         </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
+                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-0 py-3">
+                            <div class="cat fs14">E-book</div>
                             <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
 
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
+                            <div class="d-flex justify-content-between mt-lg-3 mt-3">
                                 <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
+                                <button class="px-lg-1 px-3 btn col-xxl-5 col-lg-6 col-6 py-2  text-white  fs16">
                                     Read more
                                 </button>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-lg-5 row p-lg-0 p-4" style="border: 1px solid #9B65B6;">
+                    <div class="lborder col-lg-5 row p-lg-0 p-4">
                         <div class="col-lg-4 p-0">
-                            <img src="media/backgrounds/pros.png" class="w-100" alt="">
+                            <img src="media/backgrounds/pros.png" class="w-100 h-100" alt="">
                         </div>
-                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-2">
-                            <div class="main_txt fs14">E-book</div>
+                        <div class="col-lg-8 d-flex justify-content-center flex-column pe-lg-4 gap-lg-0 py-3">
+                            <div class="cat fs14">E-book</div>
                             <div class="fs21 fsm18 text-white">IM Guide to Website Design And Development</div>
 
-                            <div class="d-flex justify-content-between mt-lg-0 mt-3">
+                            <div class="d-flex justify-content-between mt-lg-3 mt-3">
                                 <div class="fs28 text-white">£29.99</div>
-                                <button class="px-lg-1 px-3 btn col-lg-4 col-6 py-2  text-white  fs16">
+                                <button class="px-lg-1 px-3 btn col-xxl-5 col-lg-6 col-6 py-2  text-white  fs16">
                                     Read more
                                 </button>
                             </div>
@@ -436,7 +486,7 @@
 
                 <div
                     class="d-flex w-100 flex-column flex-lg-row justify-content-between align-items-lg-center position-relative mt-5 pt-3">
-                    <div class="position-absolute" style="
+                    <div class="position-absolute line" style="
                         top: 0;
                         width: 100%;
                         height: 2px;
